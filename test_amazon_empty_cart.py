@@ -5,7 +5,7 @@ class TestAmazonCart:
     driver = ""
 
     def setup_method(self):
-        self.driver = webdriver.Chrome(executable_path="/Users/iliapavlov/PycharmProjects/pytest/chromedriver")
+        self.driver = webdriver.Chrome(executable_path="/app_store/chromedriver")
         self.driver.implicitly_wait(5)
         self.driver.get("https://www.amazon.com/")
 
